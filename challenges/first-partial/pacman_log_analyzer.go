@@ -13,6 +13,6 @@ func main() {
 		fmt.Println("usage: ./pacman_log_analizer <logfile>")
 		os.Exit(1)
 	}
-
-	// Your fun starts here.
+	
+	var installed, removed, upgraded, current int
 }
