@@ -5,7 +5,7 @@
 
 // Package geometry defines simple types for plane geometry.
 //!+point
-package geometry
+package main
 
 import "math"
 
@@ -40,3 +40,17 @@ func (path Path) Distance() float64 {
 }
 
 //!-path
+
+
+import(
+	"fmt"
+	"bufio"
+	"os"
+)
+
+func main(){
+
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Println(reader)
+
+}
