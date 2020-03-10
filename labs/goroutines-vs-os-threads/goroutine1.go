@@ -12,7 +12,7 @@ func pipeline(a,b chan int){
 	value := <- a
 	b <- value 
 }
-/*
+
 func main(){
 
 	file,_ := os.Create("report1.txt")
@@ -32,6 +32,6 @@ func main(){
 		
 		file.WriteString("\rgoroutine: " + strconv.Itoa(counter) +" in " + now.String())
 	}
-*/
+
 	
 }
