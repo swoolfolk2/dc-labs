@@ -14,8 +14,8 @@ Use API
 First, you need to open another terminal. Once done this, there are 4 Post 
 Petitions you can use: Login, Logout, Status and Upload.
 
--Login-
-
+Login
+-----
 To login, you need to enter the following command:
 
 $ curl -u <username>:<password> http://localhost:8080/login
@@ -30,8 +30,8 @@ If you entered correctly, the following message will appear:
 This will save you username and password in an internal database, 
 remembering your information.
 
--Status-
-
+Status
+-----
 If you wanna check the server status, you have to provide 
 your given access-token and enter the following command:
 
@@ -45,8 +45,8 @@ then the following message will appear:
 	"time": "2015-03-07 11:06:39"
 }
 
--Upload-
-
+Upload
+-----
 If you are logged in and want to upload an image, the 
 following command should work:
 
@@ -61,8 +61,8 @@ the following message should appear:
 	"size": "500kb"
 }
 
--Logout-
-
+Logout
+-----
 If there are no other actions you want to do, you can logout providing your access-token:
 
 $ curl -H "Authorization: Bearer <ACCESS_TOKEN>" http://localhost:8080/logout
